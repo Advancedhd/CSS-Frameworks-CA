@@ -1,0 +1,24 @@
+// this didnt work for me for some reason would love input on why it didnt change colours on react components.
+
+@import "./custom.scss";
+@import "~bootstrap/scss/bootstrap";
+
+//Global
+@import "./partials/global/navbar";
+@import "./partials/global/footer";
+@import "./partials/global/gradient";
+
+//Home
+@import "./partials/home/tabs";
+@import "./partials/home/carousel";
+@import "./partials/home/titleParagraph";
+@import "./partials/home/accordion";
+
+//News
+@import "./partials/news/cards.scss";
+@import "./partials/news/heading.scss";
+@import "./partials/news/pages.scss";
+
+//Contact
+@import "./partials/contact/contactForm";
+@import "./partials/contact/contactHeading";

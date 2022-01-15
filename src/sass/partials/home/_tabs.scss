@@ -1,0 +1,77 @@
+.containertabs {
+  margin-top: 70px !important;
+  width: 95%;
+  margin: auto;
+  height: 300px;
+  margin-bottom: 20%;
+}
+
+.nav-item button {
+  color: #e92569;
+  font-family: "Lato";
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 40px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.nav-item button.active {
+  color: #767676;
+  background-color: white;
+}
+
+.nav-item button:hover {
+  color: #767676;
+}
+
+.tab-pane {
+  background-color: white;
+  border-radius: 0px 10px 10px 10px;
+  box-shadow: 0px 4px 25px -4px gray;
+}
+
+.tabimg {
+  margin-top: 40px;
+  margin-left: 44px;
+  margin-bottom: 50px;
+}
+
+.tabimg img {
+  height: 80%;
+}
+
+.tabcontent {
+  margin-left: -50%;
+  margin-top: 40px;
+  font-family: "Lato";
+  margin-right: 5%;
+}
+
+.shareicons {
+  display: flex;
+  margin-top: 50px;
+}
+
+.shareicons i {
+  margin-left: 20px;
+}
+
+.shareicons p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .containertabs {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1670px) {
+  .tabcontent p {
+    margin-left: 40%;
+  }
+  .shareicons p {
+    margin-left: 40%;
+  }
+}
